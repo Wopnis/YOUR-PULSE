@@ -1,0 +1,27 @@
+.section__title {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0D0D0D;
+    &-white {
+        font-size: 36px;
+        line-height: 54px;
+        color: white;
+        text-align: left;
+    }
+}
+
+.consultaition {
+    min-height: 680px;
+    padding: 100px 0 95px 0;
+    background: url('../../img/bg2.jpg') center (center / cover) no-repeat;
+    &__text {
+        width: 460px;
+        color: white;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}

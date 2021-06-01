@@ -1,3 +1,5 @@
+// 1200 px=====================================
+
 @media (max-width: 1200px) {
     .promo {
         padding-left: 70px;
@@ -8,7 +10,13 @@
         }
 
     }
+
+    .consultaition {
+        padding-left: 60px;
+    }
 }
+
+// 991 px=====================================
 
 @media (max-width: 991px) {
     .promo {
@@ -31,7 +39,30 @@
 
         }
     }
+
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section {
+        &__title {
+            &-white {
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+    }
+
+    .consultaition__text {
+        width: 100%;
+        text-align: center;
+    }
+
 }
+
+
+// 768 px=====================================
 
 @media (max-width: 768px) {
     .promo {
@@ -75,6 +106,9 @@
     }
 
 }
+
+
+// 576px=====================================
 
 @media (max-width: 575px) {
   .promo {
